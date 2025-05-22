@@ -3,42 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>MusicWave - O App de Música</title>
 </head>
 <body>
+
     <!-- Cabeçalho -->
-    <header>
-        <h1>Bem-vindo à Minha Landing Page</h1>
+    <header class="hero">
+        <img src="assets/images/logo.png" alt="Logo do App de Música" class="logo">
+        <h1 class="visually-hidden">MusicWave</h1>
+        <p>O futuro da música, na palma da sua mão.</p>
+        <a href="#download" class="cta-minimal">Baixe o App</a>
     </header>
 
-    <!-- Seção principal com chamada para ação -->
-    <section class="hero">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, eaque.</p>
-        <a href="#inscreva-se" class="cta-button">Comece Agora</a>
+    <!-- Como Funciona -->
+    <section class="how-it-works">
+        <h2>Como Funciona</h2>
+        <div class="step">
+            <img src="assets/images/playlist.png" alt="Criação de playlists">
+            <p>Crie playlists personalizadas com suas músicas favoritas.</p>
+        </div>
+        <div class="step">
+            <img src="assets/images/discovery.png" alt="Descobrir Novas Músicas">
+            <p>Descubra novos artistas e músicas através de recomendações inteligentes.</p>
+        </div>
+        <div class="step">
+            <img src="assets/images/listen.png" alt="Ouvir Música">
+            <p>Ouça música sem interrupções, com qualidade de áudio incrível.</p>
+        </div>
     </section>
 
-    <!-- Seção -->
-    <section class="benefits">
-        <div class="benefit-item">
-            <h2>Benefício 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <!-- Funcionalidades do App -->
+    <section class="features">
+        <h2>Principais Funcionalidades</h2>
+        <ul>
+            <li><strong>Playlists Personalizadas:</strong> Deixe o app sugerir playlists baseadas no seu gosto musical.</li>
+            <li><strong>Modo Offline:</strong> Ouça suas músicas favoritas mesmo sem conexão com a internet.</li>
+            <li><strong>Recomendações Inteligentes:</strong> Descubra novos artistas com nossas recomendações personalizadas.</li>
+        </ul>
+    </section>
+
+    <!-- Depoimentos de Usuários -->
+    <section class="testimonials">
+        <h2>O que nossos usuários estão dizendo</h2>
+        <div class="testimonial">
+            <p>"Adoro a função de playlists personalizadas! Encontrei várias músicas novas que eu amo!"</p>
+            <p>- Lucas, Usuário</p>
         </div>
-        <div class="benefit-item">
-            <h2>Benefício 2</h2>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="testimonial">
+            <p>"O app tem uma qualidade de áudio incrível. Ouvir música nunca foi tão bom!"</p>
+            <p>- Sofia, Usuária</p>
         </div>
-        <div class="benefit-item">
-            <h2>Benefício 3</h2>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        </div>
+    </section>
+
+    <!-- Chamada para Ação (Baixar o App) -->
+    <section id="download" class="download">
+        <h2>Pronto para a melhor experiência musical?</h2>
+        <p>Baixe o MusicWave agora e tenha a música que você ama ao seu alcance.</p>
+        <a href="#" class="cta-button">Baixar na App Store</a>
+        <a href="#" class="cta-button">Baixar no Google Play</a>
     </section>
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2025 Landing Page. Todos os direitos reservados.</p>
+        <p>&copy; 2025 MusicWave. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
     </footer>
+
 </body>
 </html>
