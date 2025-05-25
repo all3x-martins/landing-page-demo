@@ -31,11 +31,12 @@ Abra o arquivo `index.html` em seu navegador ou utilize uma extensão de Live Se
 │   └── style.css
 └── assets/
     └── images/
-        ├── logo.png
-        ├── hero-bg.png
-        ├── playlist.png
-        ├── discovery.png
-        └── listen.png
+    │    ├── hero-bg.png
+    │    ├── playlist.png
+    │    ├── discovery.png
+    │    └── listen.png
+    └── logo/
+        └── logo.png
 ```
 
 ## Observação
