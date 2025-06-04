@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>MusicWave - O App de Música</title>
 </head>
 <body>
     <header>
-        <img src="/assets/logo/logo.png" alt="Logo do App de Música" class="logo">
+        <img src="/assets/images/logo/logo.png" alt="Logo do App de Música" class="logo">
         <h1 class="visually-hidden">MusicWave</h1>
         <nav class="menu">
             <a href="#">Início</a>
@@ -20,7 +21,7 @@
     </header>
 
     <section class="hero">
-        <div id="particles-js"></div>
+        <div id="tsparticles"></div>
         <h2>Sua trilha sonora, sem limites</h2>
         <p>Descubra novos artistas, crie playlists personalizadas e mergulhe em uma experiência musical incomparável.</p>
         <div class="cta-buttons">
@@ -29,25 +30,28 @@
         </div>
     </section>
 
-    <section class="parallax">
-        <h3>Experimente o poder da música em movimento</h3>
+    <section class="highlight">
+      <h3>Experimente o poder da música em movimento</h3>
     </section>
 
     <section class="how-it-works">
-        <h2>Como Funciona</h2>
-        <div class="step">
-            <img src="assets/images/playlist.png" alt="Criação de playlists">
-            <p>Crie playlists personalizadas com suas músicas favoritas.</p>
-        </div>
-        <div class="step">
-            <img src="assets/images/discovery.png" alt="Descobrir Novas Músicas">
-            <p>Descubra novos artistas e músicas através de recomendações inteligentes.</p>
-        </div>
-        <div class="step">
-            <img src="assets/images/listen.png" alt="Ouvir Música">
-            <p>Ouça música sem interrupções, com qualidade de áudio incrível.</p>
-        </div>
-    </section>
+      <h2>Como Funciona</h2>
+  
+      <div class="step">
+          <img src="assets/images/playlist.png" alt="Criação de playlists">
+          <p>Crie playlists personalizadas com suas músicas favoritas.</p>
+      </div>
+  
+      <div class="step reverse">
+          <img src="assets/images/discovery.png" alt="Descobrir Novas Músicas">
+          <p>Descubra novos artistas e músicas através de recomendações inteligentes.</p>
+      </div>
+  
+      <div class="step">
+          <img src="assets/images/listen.png" alt="Ouvir Música">
+          <p>Ouça música sem interrupções, com qualidade de áudio incrível.</p>
+      </div>
+     </section>
 
     <section class="features">
         <h2>Principais Funcionalidades</h2>
@@ -57,6 +61,13 @@
             <li><strong>Recomendações Inteligentes:</strong> Descubra novos artistas com nossas recomendações personalizadas.</li>
         </ul>
     </section>
+
+    <section class="about">
+      <img src="assets/images/wave-icon.png" alt="Ícone da MusicWave" class="about-icon">
+      <h2>Sobre a MusicWave</h2>
+      <p>Somos apaixonados por transformar a maneira como você descobre e ouve música. Acreditamos no poder da tecnologia para conectar pessoas através do som, criando experiências únicas e personalizadas.</p>
+      <p>Nossa missão é colocar o futuro da música na palma da sua mão.</p>
+    </section>  
 
     <section id="download" class="download">
         <h2>Pronto para a melhor experiência musical?</h2>
@@ -80,23 +91,6 @@
         </div>
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-<script>
-    particlesJS('particles-js', {
-      particles: {
-        number: { value: 60 },
-        color: { value: "#ffffff" },
-        shape: { type: "circle" },
-        opacity: { value: 0.2 },
-        size: { value: 3 },
-        move: { enable: true, speed: 1 }
-      },
-      interactivity: {
-        detect_on: "canvas",
-        events: {
-          onhover: { enable: true, mode: "repulse" }
-        }
-      }
-    });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="js/tsparticles.js"></script>
 </html>
