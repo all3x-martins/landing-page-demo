@@ -1,27 +1,33 @@
-# MusicWave 🎵
+# MusicWave Landing Page
+
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-Landing page fictícia criada para demonstração.
+Landing page fictícia criada para demonstração de habilidades em HTML, CSS e boas práticas de estruturação web.
 
-## Sobre
+## ✨ Sobre o Projeto
 
-Este projeto simula uma landing page moderna para um aplicativo de música chamado **MusicWave**. O objetivo é demonstrar minhas habilidades em HTML e CSS, com foco em design responsivo, organização de componentes e apresentação visual.
+O **MusicWave** simula uma landing page moderna para um aplicativo de música digital. O foco está em design responsivo, organização visual, apresentação clara das funcionalidades e experiência de usuário envolvente.
 
-## Funcionalidades exibidas
+> **Atenção:** Este projeto é fictício, não representa um produto real e serve apenas para fins de portfólio.
 
-- Seção hero com chamada para ação
-- Explicação de funcionamento do app
-- Lista de principais funcionalidades
-- Depoimentos de usuários fictícios
-- Botões para download (sem links reais)
+## 🖼️ Demonstração
+
+Abra o arquivo `index.html` no seu navegador ou utilize uma extensão de Live Server para visualizar:
+
+![Preview da Landing Page](assets/images/preview.png) <!-- Adicione um screenshot se desejar -->
+
+## 🚀 Funcionalidades Apresentadas
+
+- Seção Hero com chamada para ação e efeito visual de partículas
+- Seção "Como Funciona" mostrando a jornada do usuário
+- Lista de principais funcionalidades oferecidas pelo app
+- Seção institucional "Sobre a MusicWave"
+- Botões fictícios para download nas lojas
 - Rodapé com links sociais de exemplo
+- Design totalmente responsivo
 
-## Demonstração
-
-Abra o arquivo `index.html` em seu navegador ou utilize uma extensão de Live Server.
-
-## Estrutura
+## 📂 Estrutura de Pastas
 
 ```
 /
@@ -29,20 +35,50 @@ Abra o arquivo `index.html` em seu navegador ou utilize uma extensão de Live Se
 ├── css/
 │   ├── reset.css
 │   └── style.css
+├── js/
+│   └── tsparticles.js
 └── assets/
     └── images/
-    │    ├── hero-bg.png
-    │    ├── playlist.png
-    │    ├── discovery.png
-    │    └── listen.png
-    └── logo/
-        └── logo.png
+        ├── favicon.ico
+        ├── wave-icon.png
+        ├── hero-bg.png
+        ├── playlist.png
+        ├── discovery.png
+        ├── listen.png
+        └── logo/
+            └── logo.png
 ```
 
-## Observação
+## 💡 Como usar
 
-Este site e o app MusicWave são fictícios, criados apenas para fins de demonstração e portfólio.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/all3x-martins/landing-page-website.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd landing-page-website
+   ```
+3. Abra o arquivo `index.html` em seu navegador preferido.
+
+## 📱 Responsividade
+
+O layout adapta-se a diferentes tamanhos de tela, proporcionando uma excelente experiência tanto em desktops quanto em dispositivos móveis.
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3 (Flexbox, animações e responsividade)
+- JavaScript (efeito de partículas com [tsparticles](https://github.com/matteobruni/tsparticles))
+
+## 🙋‍♂️ Contribuição
+
+Sinta-se à vontade para abrir issues, sugerir melhorias ou clonar o projeto para fins de estudo.
+
+## 📄 Licença
+
+Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-Feito por [all3x-martins](https://github.com/all3x-martins)
+Desenvolvido com 💜 por [all3x-martins](https://github.com/all3x-martins)
