@@ -1,95 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>MusicWave - O App de Música</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MusicWave - Sua Jornada Musical</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
-        <img src="/assets/images/logo/logo.png" alt="Logo do App de Música" class="logo">
-        <h1 class="visually-hidden">MusicWave</h1>
-        <nav class="menu">
-            <a href="#">Início</a>
-            <a href="#">Descobrir</a>
-            <a href="#">Playlists</a>
-            <a href="#">Contato</a>
-        </nav>
-    </header>
-
+  <header>
+    <div>
+      <img src="/assets/images/logo/logo.png" alt="Logo MusicWave" class="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
     <section class="hero">
-        <div id="tsparticles"></div>
-        <h2>Sua trilha sonora, sem limites</h2>
-        <p>Descubra novos artistas, crie playlists personalizadas e mergulhe em uma experiência musical incomparável.</p>
-        <div class="cta-buttons">
-          <a href="#" class="btn btn-primary">Experimente Agora</a>
-          <a href="#" class="btn btn-secondary">Saiba Mais</a>
+      <div id="tsparticles"></div>
+      <h1>Descubra sua trilha sonora perfeita com o MusicWave</h1>
+      <p>Streaming inteligente, playlists personalizadas e a melhor qualidade de áudio, tudo em um só lugar.</p>
+      <a href="#planos" class="btn">Conheça nossos planos</a>
+    </section>
+    <section id="experiencia" class="experience">
+      <h2>Por que escolher o MusicWave?</h2>
+      <div class="experience-grid">
+        <div class="experience-item">
+          <img src="/assets/images/playlist.png" alt="Playlists Personalizadas">
+          <h3>Playlists Personalizadas</h3>
+          <p>Receba sugestões musicais sob medida, baseadas no seu estilo e preferências.</p>
         </div>
-    </section>
-
-    <section class="highlight">
-      <h3>Experimente o poder da música em movimento</h3>
-    </section>
-
-    <section class="how-it-works">
-      <h2>Como Funciona</h2>
-  
-      <div class="step">
-          <img src="assets/images/playlist.png" alt="Criação de playlists">
-          <p>Crie playlists personalizadas com suas músicas favoritas.</p>
-      </div>
-  
-      <div class="step reverse">
-          <img src="assets/images/discovery.png" alt="Descobrir Novas Músicas">
-          <p>Descubra novos artistas e músicas através de recomendações inteligentes.</p>
-      </div>
-  
-      <div class="step">
-          <img src="assets/images/listen.png" alt="Ouvir Música">
-          <p>Ouça música sem interrupções, com qualidade de áudio incrível.</p>
-      </div>
-     </section>
-
-    <section class="features">
-        <h2>Principais Funcionalidades</h2>
-        <ul>
-            <li><strong>Playlists Personalizadas:</strong> Deixe o app sugerir playlists baseadas no seu gosto musical.</li>
-            <li><strong>Modo Offline:</strong> Ouça suas músicas favoritas mesmo sem conexão com a internet.</li>
-            <li><strong>Recomendações Inteligentes:</strong> Descubra novos artistas com nossas recomendações personalizadas.</li>
-        </ul>
-    </section>
-
-    <section class="about">
-      <img src="assets/images/wave-icon.png" alt="Ícone da MusicWave" class="about-icon">
-      <h2>Sobre a MusicWave</h2>
-      <p>Somos apaixonados por transformar a maneira como você descobre e ouve música. Acreditamos no poder da tecnologia para conectar pessoas através do som, criando experiências únicas e personalizadas.</p>
-      <p>Nossa missão é colocar o futuro da música na palma da sua mão.</p>
-    </section>  
-
-    <section id="download" class="download">
-        <h2>Pronto para a melhor experiência musical?</h2>
-        <p>Baixe o MusicWave agora e tenha a música que você ama ao seu alcance.</p>
-        <a href="#" class="cta-button">Baixar na App Store</a>
-        <a href="#" class="cta-button">Baixar no Google Play</a>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 MusicWave. Todos os direitos reservados.</p>
-        <div class="social-icons">
-          <a href="#" aria-label="Instagram">
-            <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .3 2.5.5.6.2 1 .5 1.5 1s.8.9 1 1.5c.2.5.4 1.3.5 2.5.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2-.5 2.5-.2.6-.5 1-1 1.5s-.9.8-1.5 1c-.5.2-1.3.4-2.5.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.3-2.5-.5-.6-.2-1-.5-1.5-1s-.8-.9-1-1.5c-.2-.5-.4-1.3-.5-2.5C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-2 .5-2.5.2-.6.5-1 1-1.5s.9-.8 1.5-1c.5-.2 1.3-.4 2.5-.5C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.4 0-4.6.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.2.7-.4.4-.6.7-.7 1.2-.1.4-.3 1-.4 2.1-.1 1.2-.1 1.5-.1 4.6s0 3.4.1 4.6c.1 1.1.2 1.7.4 2.1.2.5.4.9.7 1.2.4.4.7.6 1.2.7.4.1 1 .3 2.1.4 1.2.1 1.5.1 4.6.1s3.4 0 4.6-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.2-.7.4-.4.6-.7.7-1.2.1-.4.3-1 .4-2.1.1-1.2.1-1.5.1-4.6s0-3.4-.1-4.6c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.7-1.2-.4-.4-.7-.6-1.2-.7-.4-.1-1-.3-2.1-.4-1.2-.1-1.5-.1-4.6-.1zm0 3.7a5.1 5.1 0 1 1 0 10.2 5.1 5.1 0 0 1 0-10.2zm0 1.8a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6zm5.3-1.6a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>
-          </a>
-          <a href="#" aria-label="Facebook">
-            <svg viewBox="0 0 24 24"><path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12H16l-.5 3h-2v7c4.8-.8 8.5-4.9 8.5-9.9z"/></svg>
-          </a>
-          <a href="#" aria-label="Twitter">
-            <svg viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04 4.28 4.28 0 0 0-7.29 3.9A12.15 12.15 0 0 1 3.15 4.6a4.28 4.28 0 0 0 1.32 5.71 4.25 4.25 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.43 4.2 4.29 4.29 0 0 1-1.93.07 4.29 4.29 0 0 0 4 3A8.6 8.6 0 0 1 2 18.57 12.14 12.14 0 0 0 8.29 20c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.36 8.36 0 0 0 22.46 6z"/></svg>
-          </a>
+        <div class="experience-item">
+          <img src="/assets/images/discovery.png" alt="Descoberta Inteligente">
+          <h3>Descoberta Inteligente</h3>
+          <p>Explore novos artistas e músicas com recomendações impulsionadas por IA.</p>
         </div>
-    </footer>
+        <div class="experience-item">
+            <img src="/assets/images/listen.png" alt="Streaming de Qualidade">
+            <h3>Streaming de Qualidade</h3>
+            <p>Desfrute de áudio lossless em qualquer lugar, com modo offline e integração total.</p>
+          </div>
+      </div>
+    </section>
+    <section id="planos" class="plans">
+      <h2>Nossos Planos</h2>
+      <div class="plans-grid">
+        <div class="plan">
+          <h3>Gratuito</h3>
+          <p>Acesso limitado às funcionalidades, com anúncios.</p>
+        </div>
+        <div class="plan">
+          <h3>Premium</h3>
+          <p>Streaming sem anúncios, modo offline e qualidade máxima de áudio.</p>
+        </div>
+        <div class="plan">
+          <h3>Family</h3>
+          <p>Até 6 contas para você e sua família com todos os benefícios Premium.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="contact">
+      <h2>Fale Conosco</h2>
+      <form>
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="email" placeholder="Seu E-mail" required>
+        <textarea placeholder="Sua Mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+   </main>
+   <footer>
+      <p>&copy; 2025 MusicWave. Todos os direitos reservados.</p>
+   </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 <script src="js/tsparticles.js"></script>
