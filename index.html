@@ -4,11 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MusicWave - Sua Jornada Musical</title>
+  <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <i class="fa-solid fa-bars"></i>
+  </button>
     <div>
       <img src="/assets/images/logo/logo.png" alt="Logo MusicWave" class="logo">
     </div>
@@ -27,63 +32,89 @@
       <p>Streaming inteligente, playlists personalizadas e a melhor qualidade de áudio, tudo em um só lugar.</p>
       <a href="#planos" class="btn">Conheça nossos planos</a>
     </section>
-    <section id="experiencia" class="experience">
+    <section id="experiencia" class="experience-header">
       <h2>Por que escolher o MusicWave?</h2>
-      <div class="experience-grid">
-        <div class="experience-item">
-          <img src="/assets/images/playlist.png" alt="Playlists Personalizadas">
+    </section>
+    <section class="experience-section playlist-section">
+      <div class="content">
+        <img src="/assets/images/playlist.png" alt="Playlists Personalizadas">
+        <div>
           <h3>Playlists Personalizadas</h3>
           <p>Receba sugestões musicais sob medida, baseadas no seu estilo e preferências.</p>
         </div>
-        <div class="experience-item">
-          <img src="/assets/images/discovery.png" alt="Descoberta Inteligente">
+      </div>
+    </section>
+    <section class="experience-section discovery-section">
+      <div class="content reverse">
+        <img src="/assets/images/discovery.png" alt="Descoberta Inteligente">
+        <div>
           <h3>Descoberta Inteligente</h3>
           <p>Explore novos artistas e músicas com recomendações impulsionadas por IA.</p>
         </div>
-        <div class="experience-item">
-            <img src="/assets/images/listen.png" alt="Streaming de Qualidade">
-            <h3>Streaming de Qualidade</h3>
-            <p>Desfrute de áudio lossless em qualquer lugar, com modo offline e integração total.</p>
-          </div>
       </div>
-    </section>
-    <section id="planos" class="plans">
+    </section>   
+    <section class="experience-section quality-section">
+      <div class="content">
+        <img src="/assets/images/A_photograph_captures_a_young_African_American_man.png" alt="Streaming de Qualidade">
+        <div>
+          <h3>Streaming de Qualidade</h3>
+          <p>Desfrute de áudio lossless em qualquer lugar, com modo offline e integração total.</p>
+        </div>
+      </div>
+    </section>        
+    <section id="planos" class="plans-alt">
       <h2>Nossos Planos</h2>
-      <div class="plans-grid">
-        <div class="plan">
+      <div class="plans-cards">
+        <div class="plan-card">
           <h3>Gratuito</h3>
           <p>Acesso limitado às funcionalidades, com anúncios.</p>
+          <span class="price">R$ 0/mês</span>
+          <button class="btn-card">Começar</button>
         </div>
-        <div class="plan">
+    
+        <div class="plan-card destaque">
           <h3>Premium</h3>
           <p>Streaming sem anúncios, modo offline e qualidade máxima de áudio.</p>
+          <span class="price">R$ 19,90/mês</span>
+          <button class="btn-card destaque-btn">Assinar Agora</button>
         </div>
-        <div class="plan">
+    
+        <div class="plan-card">
           <h3>Family</h3>
           <p>Até 6 contas para você e sua família com todos os benefícios Premium.</p>
+          <span class="price">R$ 34,90/mês</span>
+          <button class="btn-card">Assinar</button>
         </div>
       </div>
-    </section>
+    </section>    
     <section class="testimonials">
       <h2>O que dizem nossos usuários</h2>
       <div class="testimonials-grid">
         <div class="testimonial">
-          <p>“O MusicWave mudou minha forma de ouvir música. As playlists são sempre certeiras!”</p>
-          <strong>Lucas Andrade</strong>
-          <span>DJ e Produtor</span>
+          <img src="/assets/images/Lucas_Andrade_DJ.png" alt="Lucas Andrade" class="testimonial-photo" />
+          <blockquote>“O MusicWave mudou minha forma de ouvir música. As playlists são sempre certeiras!”</blockquote>
+          <div class="testimonial-person">
+            <strong>Lucas Andrade</strong>
+            <span>DJ e Produtor</span></div>
         </div>
         <div class="testimonial">
-          <p>“A qualidade do áudio é insana. Finalmente encontrei uma plataforma que respeita o som.”</p>
-          <strong>Marina Costa</strong>
-          <span>Música independente</span>
+          <img src="assets/images/Marina_Costa_Musica_Independente.png" alt="Marina Costa" class="testimonial-photo" />
+          <blockquote>“A qualidade do áudio é insana. Finalmente encontrei uma plataforma que respeita o som.”</blockquote>
+          <div class="testimonial-person">
+            <strong>Marina Costa</strong>
+            <span>Música independente</span>
+          </div>
         </div>
         <div class="testimonial">
-          <p>“O algoritmo me entende melhor que meus amigos. Descobri artistas incríveis aqui.”</p>
-          <strong>Thiago Silva</strong>
-          <span>Usuário Premium</span>
+          <img src="assets/images/Thiago_Silva_Usuario_Premium.png" alt="Thiago Silva" class="testimonial-photo" />
+          <blockquote>“O algoritmo me entende melhor que meus amigos. Descobri artistas incríveis aqui.”</blockquote>
+          <div class="testimonial-person">
+            <strong>Thiago Silva</strong>
+            <span>Usuário Premium</span>
+          </div>
         </div>
       </div>
-    </section>    
+    </section>   
     <section id="contato" class="contact">
       <h2>Fale Conosco</h2>
       <form>
@@ -98,6 +129,7 @@
       <p>&copy; 2025 MusicWave. Todos os direitos reservados.</p>
    </footer>
 </body>
+<script src="js/menu-toggle.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 <script src="js/tsparticles.js"></script>
 </html>
