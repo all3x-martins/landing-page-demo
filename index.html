@@ -11,19 +11,27 @@
 </head>
 <body>
   <header>
-    <button class="menu-toggle" aria-label="Abrir menu">
-      <i class="fa-solid fa-bars"></i>
-  </button>
     <div>
       <img src="/assets/images/logo/logo.png" alt="Logo MusicWave" class="logo">
     </div>
-    <nav>
+    <nav class="navbar">
       <ul>
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#planos">Planos</a></li>
         <li><a href="#contato">Contato</a></li>
+        <li class="auth-buttons-menu">
+            <a href="#cadastro" class="btn-cadastro">Cadastre-se</a>
+            <a href="#login" class="btn-login">Login</a>
+        </li>
       </ul>
+      <div class="auth-buttons">
+        <a href="#login" class="btn-login">Login</a>
+        <a href="#cadastro" class="btn-cadastro">Cadastre-se</a>
+      </div>
     </nav>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
   </header>
   <main>
     <section class="hero">
