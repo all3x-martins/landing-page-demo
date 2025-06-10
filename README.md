@@ -7,47 +7,24 @@ Landing page fictícia criada para demonstração de habilidades em HTML, CSS e 
 
 ## ✨ Sobre o Projeto
 
-O **MusicWave** simula uma landing page moderna para um aplicativo de música digital. O foco está em design responsivo, organização visual, apresentação clara das funcionalidades e experiência de usuário envolvente.
+O **MusicWave** simula uma landing page moderna para um aplicativo de música digital. O foco está em design responsivo, organização visual, apresentação clara das funcionalidades e experiência do usuário.
 
 > **Atenção:** Este projeto é fictício, não representa um produto real e serve apenas para fins de portfólio.
 
-## 🖼️ Demonstração
+## 🔗 Demonstração Online
 
-Abra o arquivo `index.html` no seu navegador ou utilize uma extensão de Live Server para visualizar:
-
-![Preview da Landing Page](assets/images/preview.png) <!-- Adicione um screenshot se desejar -->
+Você pode acessar uma versão hospedada no GitHub Pages (https://all3x-martins.github.io/landing-page-website/).
 
 ## 🚀 Funcionalidades Apresentadas
 
 - Seção Hero com chamada para ação e efeito visual de partículas
-- Seção "Como Funciona" mostrando a jornada do usuário
-- Lista de principais funcionalidades oferecidas pelo app
-- Seção institucional "Sobre a MusicWave"
-- Botões fictícios para download nas lojas
-- Rodapé com links sociais de exemplo
-- Design totalmente responsivo
+- Seção de diferenciais (Playlists personalizadas, Descoberta inteligente, Streaming de qualidade)
+- Depoimentos reais de usuários
+- Apresentação de planos (Gratuito, Premium, Family)
+- Formulário de contato para dúvidas ou feedback
+- Design totalmente responsivo (mobile-first)
+- Barra de navegação com menu mobile (hamburguer) e bloqueio de rolagem ao abrir menu
 
-## 📂 Estrutura de Pastas
-
-```
-/
-├── index.html
-├── css/
-│   ├── reset.css
-│   └── style.css
-├── js/
-│   └── tsparticles.js
-└── assets/
-    └── images/
-        ├── favicon.ico
-        ├── wave-icon.png
-        ├── hero-bg.png
-        ├── playlist.png
-        ├── discovery.png
-        ├── listen.png
-        └── logo/
-            └── logo.png
-```
 
 ## 💡 Como usar
 
@@ -61,9 +38,7 @@ Abra o arquivo `index.html` no seu navegador ou utilize uma extensão de Live Se
    ```
 3. Abra o arquivo `index.html` em seu navegador preferido.
 
-## 📱 Responsividade
-
-O layout adapta-se a diferentes tamanhos de tela, proporcionando uma excelente experiência tanto em desktops quanto em dispositivos móveis.
+   - **Dica:** Você pode usar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode para recarregar automaticamente ao salvar.
 
 ## 🛠️ Tecnologias Utilizadas
 
