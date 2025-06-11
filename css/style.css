@@ -1,3 +1,4 @@
+/* Fonte global e estilos do body */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-main);
@@ -5,7 +6,7 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
+/* Cabeçalho: header e logo */
 header {
     display: flex;
     justify-content: space-between;
@@ -19,6 +20,7 @@ header {
     z-index: 1000;
 }
 
+/* Logo da aplicação */
 .logo {
     width: 140px;
     transition: transform 0.3s ease;
@@ -28,6 +30,7 @@ header {
     transform: scale(1.05);
 }
 
+/* Botão de menu mobile (hamburger) */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -41,20 +44,14 @@ header {
     z-index: 1101;
 }
 
+/* Classe para bloquear scroll do body quando menu está aberto */
 .body-no-scroll {
     overflow: hidden;
     position: fixed;
     width: 100vw;
 }
 
-.menu-toggle span {
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-}
-
+/* Navegação (navbar e menus) */
 nav {
     display: flex;
     align-items: center;
@@ -69,10 +66,12 @@ nav ul {
     padding: 0;
 }
 
+/* Botões de autenticação apenas para menu mobile */
 .auth-buttons-menu {
     display: none;
 }
 
+/* Links de navegação */
 nav a {
     text-decoration: none;
     color: var(--text-primary);
@@ -81,6 +80,7 @@ nav a {
     transition: color 0.3s;
 }
 
+/* Efeito underline animado nos links */
 nav ul a::after {
     content: '';
     display: block;
@@ -95,6 +95,7 @@ nav a:hover::after {
     width: 100%;
 }
 
+/* Botões de autenticação (login e cadastro) */
 .auth-buttons {
     display: flex;
     align-items: center;
@@ -110,6 +111,7 @@ nav a:hover::after {
     display: inline-flex;
 }
 
+/* Botão login */
 .auth-buttons .btn-login {
     border: 1px solid var(--color-primary);
     background-color: rgba(18, 18, 18, 0.85);
@@ -121,6 +123,7 @@ nav a:hover::after {
     color: var(--text-primary);
 }
 
+/* Botão cadastro */
 .auth-buttons .btn-cadastro {
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
@@ -131,7 +134,7 @@ nav a:hover::after {
     background-color: var(--color-primary-alt);
 }
 
-/* Hero */
+/*  Hero Section (banner principal) */
 .hero {
     height: calc(100vh - 80px);
     background: url('../assets/images/hero-bg.png') no-repeat center/cover;
@@ -143,6 +146,7 @@ nav a:hover::after {
     padding: 0 20px;
 }
 
+/* Efeito de partículas em background */
 #tsparticles {
     position: absolute;
     width: 100%;
@@ -152,11 +156,13 @@ nav a:hover::after {
     left: 0;
 }
 
+/* Eleva texto acima das partículas */
 .hero>*:not(#tsparticles) {
     position: relative;
     z-index: 1;
 }
 
+/* Título e descrição do hero */
 .hero h1 {
     font-size: 3rem;
     color: var(--color-primary);
@@ -170,6 +176,7 @@ nav a:hover::after {
     font-size: 1.2rem;
 }
 
+/* Botão principal do hero */
 .btn-cta {
     display: inline-block;
     padding: 14px 30px;
@@ -187,7 +194,7 @@ nav a:hover::after {
     box-shadow: var(--shadow-hover);
 }
 
-/* Seção Experiência */
+/* Seção Experiência (destaques do app) */
 .experience-header {
     text-align: center;
     padding: 60px 20px;
@@ -198,6 +205,7 @@ nav a:hover::after {
     font-size: 2.5rem;
 }
 
+/* Bloco de experiência */
 .experience-section {
     padding: 60px 20px;
 }
@@ -211,6 +219,7 @@ nav a:hover::after {
     margin: 0 auto;
 }
 
+/* Layout invertido em algumas seções */
 .experience-section .content.reverse {
     flex-direction: row-reverse;
 }
@@ -220,6 +229,7 @@ nav a:hover::after {
     max-width: 300px;
 }
 
+/* Títulos e textos das experiências */
 .experience-section div>h3 {
     color: var(--color-primary-alt);
     font-size: 2rem;
@@ -232,6 +242,7 @@ nav a:hover::after {
     max-width: 600px;
 }
 
+/* Cores de fundo específicas das seções */
 .playlist-section {
     background: var(--bg-alt);
 }
@@ -303,6 +314,7 @@ nav a:hover::after {
     color: var(--text-light);
 }
 
+/* Botão dos cards */
 .btn-card {
     background-color: transparent;
     border: 1px solid var(--color-primary-alt);
@@ -318,6 +330,7 @@ nav a:hover::after {
     color: var(--bg-main);
 }
 
+/* Destaque para plano Premium */
 .destaque {
     border: 2px solid var(--color-primary-alt);
     background: linear-gradient(145deg, #1f1f1f, #2a2a2a);
@@ -335,6 +348,7 @@ nav a:hover::after {
     color: var(--text-light);
 }
 
+/* Seção Depoimentos */
 .testimonials {
     padding: 100px 20px;
     background: #141414;
@@ -457,8 +471,10 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Responsividade */
+/* Responsividade (breakpoints) */
 @media (max-width: 480px) {
+
+    /* Esconde botões desktop no mobile */
     .auth-buttons {
         display: none;
     }
@@ -469,6 +485,8 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    /* Ajusta header e navegação mobile */
     header {
         gap: 2rem;
         padding: 8px 20px;
@@ -532,36 +550,20 @@ footer {
         display: none;
     }
 
-    .menu-toggle {
-        display: flex;
-    }
-
     .menu-toggle i {
         pointer-events: none;
         font-size: 34px;
         color: var(--text-primary);
     }
 
-
     .hero h1 {
         font-size: 2rem;
     }
-
-    .experience-grid,
-    .plans-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .experience-item,
-    .plan {
-        width: 90%;
-    }
-
 }
 
 @media (max-width: 992px) {
 
+    /* Ajusta grid de planos e depoimentos para coluna */
     .plans-cards,
     .testimonials-grid {
         flex-direction: column;
@@ -575,6 +577,8 @@ footer {
 }
 
 @media (max-width:1160px) {
+
+    /* Esconde menu desktop e ativa mobile */
     .navbar ul {
         display: none;
     }
