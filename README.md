@@ -13,7 +13,7 @@ O **MusicWave** simula uma landing page moderna para um aplicativo de música di
 
 ## 🔗 Demonstração Online
 
-Você pode acessar uma versão hospedada no GitHub Pages (https://all3x-martins.github.io/landing-page-website/).
+Você pode acessar uma versão hospedada no GitHub Pages (https://all3x-martins.github.io/landing-page-musicwave/).
 
 ## 🚀 Funcionalidades Apresentadas
 
@@ -30,11 +30,11 @@ Você pode acessar uma versão hospedada no GitHub Pages (https://all3x-martins.
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/all3x-martins/landing-page-website.git
+   git clone https://github.com/all3x-martins/landing-page-musicwave.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd landing-page-website
+   cd landing-page-musicwave
    ```
 3. Abra o arquivo `index.html` em seu navegador preferido.
 
